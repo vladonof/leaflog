@@ -1,0 +1,72 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go module files
+go.sum
+go.work
+
+# Vendor directory (optional, if using Go Modules)
+vendor/
+
+# IDE/editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Build directories and files
+bin/
+build/
+dist/
+
+# Docker files
+docker-compose.override.yml
+.docker/
+
+# Environment variable files
+.env
+.env.*
+
+# Node.js files (if any Node.js tooling is used)
+node_modules/
+
+# Dependency directories
+Godeps/
+vendor/
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+
+# CTags
+tags
+
+# MacOS files
+.DS_Store
+
+# Coverage files
+coverage/
+*.coverprofile
+
+# Debugging dumps
+*.dump
+
+# Sensitive data
+*.key
+*.pem
+*.cert
